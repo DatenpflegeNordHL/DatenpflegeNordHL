@@ -27,6 +27,8 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Read public upstream contributions
         run: python3 scripts/update_contributions.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Update profile when changed
         run: |
           if ! git diff --quiet -- README.md; then

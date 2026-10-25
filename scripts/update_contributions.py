@@ -2,6 +2,7 @@
 
 import html
 import json
+import os
 from pathlib import Path
 import re
 import urllib.parse
@@ -14,10 +15,14 @@ END = "<!-- CONTRIBUTIONS:END -->"
 
 
 def api(path):
-    # No token: these reads can only access publicly available information.
+    # Actions' repository-scoped token avoids shared-runner rate limits.
+    # Public search and the explicit visibility check remain mandatory.
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": OWNER + "-profile"}
+    if os.environ.get("GITHUB_TOKEN"):
+        headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     request = urllib.request.Request(
         "https://api.github.com/" + path,
-        headers={"Accept": "application/vnd.github+json", "User-Agent": OWNER + "-profile"},
+        headers=headers,
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
