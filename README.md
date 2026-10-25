@@ -1,20 +1,36 @@
-# DatenpflegeNordHL
+# Dustin · Datenpflege Nord
 
-Public technical profile for **DatenpflegeNord** in Lübeck, Schleswig-Holstein.
+**Full-Stack Developer · Web applications, APIs & AI automation**  
+Based in Lübeck, Germany · [datenpflege-nord.de](https://datenpflege-nord.de/)
 
-We work on individual software, web applications, APIs/integrations and controlled AI/process automation. This profile is used to make public technical work verifiable; forks are not presented as owned projects and customer work is referenced only with permission.
+I build web applications, connect systems through APIs and develop tools for practical automation. This account is focused on open-source contributions: investigating bugs, making focused fixes and adding regression coverage.
 
-- Website: https://datenpflege-nord.de/
-- Public project: [CodexLooper](https://github.com/DatenpflegeNordHL/Codex-Looper) — local-first, review-gated orchestration for bounded autonomous coding workflows
+## Languages & tools
 
-## Selected upstream contributions
+- **TypeScript / JavaScript** — React, Next.js, Node.js and web tooling.
+- **Python** — automation, AI integrations and developer tools.
+- **HTML / CSS** — responsive websites and interfaces.
+- **Go** — targeted upstream fixes, including PostgreSQL integration behaviour.
+- **Workflow** — Git, GitHub Actions, focused tests and code review.
 
-These links point to pull requests authored by this account and merged by the upstream maintainers:
+## Development journey
 
-- [OpenJarvis #936 — resolve MLX model IDs before inference](https://github.com/open-jarvis/OpenJarvis/pull/936)
-- [OpenJarvis #921 — keep desktop install working on Python 3.10](https://github.com/open-jarvis/OpenJarvis/pull/921)
-- [OpenJarvis #708 — preserve Gemini tool calls while streaming](https://github.com/open-jarvis/OpenJarvis/pull/708)
-- [Nightingale #3367 — use the configured PostgreSQL database](https://github.com/ccfos/nightingale/pull/3367)
-- [BBOT #3415 — clarify the Version Updater workflow name](https://github.com/blacklanternsecurity/bbot/pull/3415)
+My work connects three areas: building websites and web applications, integrating services and data flows, and developing AI-assisted automation. That experience informs how I approach contributions: understand the failure, fix the relevant boundary and make the behaviour testable.
 
-The list is intentionally small: useful accepted work is stronger evidence than repository or backlink volume.
+Public work includes Python packaging compatibility, model identifier resolution, streamed tool calls and a Go database configuration fix. The linked pull requests below document the changes accepted by upstream maintainers.
+
+This is the contribution profile associated with **Datenpflege Nord**. Client work and internal systems remain private. Public forks are contribution workspaces; their upstream projects belong to their respective maintainers.
+
+## Recent accepted contributions
+
+<!-- CONTRIBUTIONS:START -->
+- 2026-09-04 · [open-jarvis/OpenJarvis #936](https://github.com/open-jarvis/OpenJarvis/pull/936) — fix: resolve MLX model ids before inference
+- 2026-09-04 · [open-jarvis/OpenJarvis #921](https://github.com/open-jarvis/OpenJarvis/pull/921) — fix: keep desktop install working on Python 3.10
+- 2026-09-04 · [ccfos/nightingale #3367](https://github.com/ccfos/nightingale/pull/3367) — fix\(postgresql\): use configured database in InitClient
+- 2026-08-31 · [blacklanternsecurity/bbot #3415](https://github.com/blacklanternsecurity/bbot/pull/3415) — Clarify Version Updater workflow name
+- 2026-08-10 · [open-jarvis/OpenJarvis #708](https://github.com/open-jarvis/OpenJarvis/pull/708) — fix\(cloud\): preserve Gemini tool calls while streaming
+<!-- CONTRIBUTIONS:END -->
+
+[Browse public merged pull requests](https://github.com/search?q=author%3ADatenpflegeNordHL+is%3Apr+is%3Amerged+is%3Apublic+-user%3ADatenpflegeNordHL+-user%3Adatenpflegenord-de&type=pullrequests)
+
+The contribution list refreshes daily from public upstream pull requests. Private repositories, pull-request bodies and client project details are excluded. The skills and development journey above are maintained manually so that activity is not mistaken for expertise.
