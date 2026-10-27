@@ -16,9 +16,6 @@ Through **Datenpflege Nord** I support businesses in Lübeck and Schleswig-Holst
 
 Every project starts by defining the actual problem. Then comes the smallest sensible solution, tested against real cases.
 
-[TODO, optional: anonymisiertes Beispielprojekt in einem Satz, nur wenn der Kunde zustimmt]  
-[TODO, optional: Datenschutz-Satz, z. B. EU-Hosting oder AV-Vertrag, nur wenn belegbar]
-
 **Contact:** [datenpflege-nord.de](https://datenpflege-nord.de/) · [kontakt@datenpflege-nord.de](mailto:kontakt@datenpflege-nord.de) · Enquiries in German or English.
 
 ## Languages & tools
